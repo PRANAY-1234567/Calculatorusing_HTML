@@ -32,7 +32,6 @@ def calculator():
             result = num1 / num2 if num2 !=0 else 'Error'
             operation =f"{num1} / {num2} = {result}"
 
-
     #Push to firebase Realtime Database
         if result != 'Error':
             ref = db.reference('calculations')
