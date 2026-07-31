@@ -5,7 +5,6 @@ from firebase_admin import credentials, db
 #intialize Flask app
 app=Flask(__name__)
 
-
 #firebase config
 cred=credentials.Certificate("D:/CalculatorwithHTML/new-python-36518-firebase-adminsdk-fbsvc-a69367bc7a.json")
 firebase_admin.initialize_app(cred,{
